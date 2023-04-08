@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import com.vinni.blog.payloads.UserDto;
 
-//@Service
 public interface UserService {
 
 	UserDto createUser(UserDto user);
